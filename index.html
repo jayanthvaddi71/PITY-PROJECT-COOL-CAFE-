@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cool Cafe</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#">Cool <span>Cafe</span></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Cool Cafe</h2>
+        <p>Would you like to start the day with a nice drink?</p>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="menu-header">
+            <h3>Menu</h3>
+            <h4>CoolDrinks Menu</h4>
+        </div>
+        <div class="menu-content">
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="softdrink.jpg" alt="Soft Drinks">
+                </div>
+                <div class="menu-item-body">
+                    <h2>Soft Drinks</h2>
+                    <label>Cool and Refresh!</label>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="energydrink.jpg" alt="Energy Drinks">
+                </div>
+                <div class="menu-item-body">
+                    <h2>Energy Drinks</h2>
+                    <label>Pump energy to your Body!</label>
+                </div>
+            </div>
+            
+        <div class="shop" id="shop">
+        <div class="shop-header">
+            <h3>Shop</h3>
+            <h4>Cool Cafe</h4>
+        </div>
+        <div class="shop-box">
+            <div class="item-1">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="hell.jpeg" alt="Hell">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">150 INR</label>
+                        <h3>Hell</h3>
+                        <label>Increase your Confidence.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="sprite.jpg" alt="Sprite">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">60 INR</label>
+                        <h3>Sprite</h3>
+                        <label>Beveraged Lemon Flavour.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-3">
+                <div class="card">
+                    <div class "card-image">
+                        <img src="Jinthaa.jpg" alt="Jinthaa">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">195 INR</label>
+                        <h3>Jinthaa</h3>
+                        <label>Refresh your Body.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="redbull.jpg" alt="RedBull">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">130 INR</label>
+                        <h3>RedBull</h3>
+                        <label>Gives you Wings.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+                
+            </div>
+        </div>
+    </div> 
+        </div>
+    </div>
+
+    <div class="order" id="order">
+        <h2 style="color: #ff6600; text-align: center; font-size: 24px;">Order Your Favorite Drinks</h2>
+        <form id="order-form">
+            <label for="item1" style="color: #ff6600; font-size: 18px;">
+                Hell (150 INR)
+            </label>
+            <input type="checkbox" id="item1" name="order[]" value="Hell" data-price="150"><br>
+    
+            <label for="item2" style="color: #ff6600; font-size: 18px;">
+                Sprite (60 INR)
+            </label>
+            <input type="checkbox" id="item2" name="order[]" value="Sprite" data-price="60"><br>
+    
+            <label for="item3" style="color: #ff6600; font-size: 18px;">
+                Jinthaa (195 INR)
+            </label>
+            <input type="checkbox" id="item3" name="order[]" value="Jinthaa" data-price="195"><br>
+    
+            <label for="item4" style="color: #ff6600; font-size: 18px;">
+                RedBull (130 INR)
+            </label>
+            <input type="checkbox" id="item4" name="order[]" value="RedBull" data-price="130"><br>
+    
+            <button type="button" onclick="calculateTotal()" style="background-color: #ff6600; color: #fff; padding: 10px 20px; font-size: 20px; margin: 10px; border: none; border-radius: 5px;">
+                Calculate Total
+            </button>
+            <div id="total-price" style="color: #ff6600; font-size: 24px; text-align: center;"></div>
+    
+            <button type="button" onclick="confirmOrder()" style="background-color: #ff6600; color: #fff; padding: 10px 20px; font-size: 20px; margin: 10px; border: none; border-radius: 5px;">
+                Place Order
+            </button>
+            <div id="order-summary" style="color: #ff6600; font-size: 24px; text-align: center;"></div>
+            <div id="order-message" style="color: #ff0000; font-size: 24px; text-align: center;"></div>
+        </form>
+    </div>
+    
+
+    <div class="contact" id="contact">
+        <div class="contact-box">
+            <div class="contact-image">
+                <img src="bkd.jpeg">
+            </div>
+        </div>
+        <div class="contact-box">
+            <div class="contact-body">
+                <form>
+                    <h2>Contact Us</h2>
+                    <div class="form-content">
+                        <input type="text" required>
+                        <span></span>
+                        <label>Username</label>
+                    </div>
+                    <div class="form-content">
+                        <input type="email" required>
+                        <span></span>
+                        <label>Email</label>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <label>Copyright &copy; 2022</label>
+            </div>
+            <div class="brand">
+                <label>Cold <span>Cafe</span></label>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function calculateTotal() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            let total = 0;
+
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    total += parseFloat(checkbox.getAttribute('data-price'));
+                }
+            });
+
+            document.getElementById('total-price').textContent = `Total Price: ${total} INR`;
+        }
+
+        function confirmOrder() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            let selectedItems = [];
+
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    selectedItems.push(checkbox.value);
+                }
+            });
+
+            if (selectedItems.length > 0) {
+                const confirmation = confirm(`Confirm your order for: ${selectedItems.join(', ')}?`);
+
+                if (confirmation) {
+                    document.getElementById('order-message').textContent = 'Order placed successfully!';
+                } else {
+                    document.getElementById('order-message').textContent = 'Order not confirmed.';
+                }
+            } else {
+                alert('Please select items to order.');
+            }
+        }
+    </script>
+</body>
+
+</html>
